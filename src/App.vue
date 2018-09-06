@@ -1,12 +1,27 @@
 <template>
   <div id="app">
+    <pcnav></pcnav>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+    <pcfoot></pcfoot>
   </div>
 </template>
+
+<script>
+import Nav from "@/components/nav/Nav.vue";
+import Footer from "@/components/nav/Footer.vue";
+
+export default {
+  name: "home",
+  components: {
+    pcnav: Nav,
+    pcfoot: Footer
+  }
+};
+</script>
 
 <style lang="scss">
 #app {
