@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+// Variables
+$pcturquoise: #16BAC5;
+$pcdeepblue: #2364AA;
+$pcfunblue: #3499ED;
+$pcsummergreen: #8AC926;
+$pcyellow: #FFBA49;
+$pcpalered: #EF5B5B;
+
+$primary: $pcturquoise;
+$link: $pcdeepblue;
+$info: $pcfunblue;
+$success: $pcsummergreen;
+$warning: $pcyellow;
+$danger: $pcpalered;
+
+// Could be optimized by importing things piecewise as detailed on
+// https://bulma.io/documentation/customize/with-webpack/
+@import "~bulma/bulma"
