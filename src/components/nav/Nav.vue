@@ -15,7 +15,7 @@
     </div>
     <div class="navbar-menu" :class="{'is-active':showNav}" id="navMenu">
       <div class="navbar-start">
-        <router-link class="navbar-item" to="/" exact-active-class="is-active">Home</router-link>
+        <router-link class="navbar-item" to="/home" exact-active-class="is-active">Home</router-link>
         <div class="navbar-item has-dropdown is-hoverable" @mouseover="showTopDropdown = true" @mouseout="showTopDropdown = false">
           <router-link class="navbar-link" to="/about" :class="{'is-active': inAbout }">About</router-link>
           <div class="navbar-dropdown">
