@@ -4,7 +4,7 @@
             <div class="level">
                 <div class="level-left">
                     <div class="level-item has-text-grey">
-                        generic price website v0.0.1
+                        website © 2018
                     </div>
                 </div>
                 <div class="level-right is-size-7">
@@ -74,9 +74,9 @@ html {
   box-sizing: border-box;
 }
 
-.pcfooter {
+.section.pcfooter {
   background-color: hsl(0, 0%, 96%);
-  padding: 1.5rem 0rem;
+  padding: 1rem 0rem;
   position: absolute;
   left: 0px;
   right: 0px;
