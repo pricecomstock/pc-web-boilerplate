@@ -5,7 +5,7 @@
         <span class="icon is-medium">
           <i class="fas fa-lg fa-infinity"></i>
         </span>
-        <span>website</span>
+        <span>{{ appName }}</span>
       </router-link>
       <div class="navbar-burger" :class="{'is-active':showNav}" @click="showNav = !showNav" data-target="navMenu">
         <span></span> <!--wow these are the 3 bars of the hamburger icon-->
@@ -50,7 +50,8 @@ export default {
   name: "NavBar",
   data() {
     return {
-      showNav: false
+      showNav: false,
+      appName: process.env.VUE_APP_TITLE
     };
   },
   computed: {
