@@ -99,9 +99,15 @@ html {
 .section.pcfooter {
   background-color: hsl(0, 0%, 96%);
   padding: 1rem 0rem;
-  position: absolute;
+  position: relative;
   left: 0px;
   right: 0px;
   bottom: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .section.pcfooter {
+    position: static;
+  }
 }
 </style>
