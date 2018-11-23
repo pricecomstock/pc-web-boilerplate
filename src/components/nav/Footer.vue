@@ -99,7 +99,7 @@ html {
 .section.pcfooter {
   background-color: hsl(0, 0%, 96%);
   padding: 1rem 0rem;
-  position: relative;
+  position: absolute;
   left: 0px;
   right: 0px;
   bottom: 0px;
