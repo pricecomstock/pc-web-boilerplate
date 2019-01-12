@@ -2,6 +2,9 @@
   <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <router-link class="navbar-item placeholder-logo" to="/" disabled>
+        <img src="@/assets/logo.png" alt="Inspopaper">
+      </router-link>
+      <router-link class="navbar-item placeholder-logo" to="/" disabled>
         <span class="icon is-medium">
           <i class="fas fa-lg fa-infinity"></i>
         </span>
@@ -46,12 +49,13 @@
 </template>
 
 <script>
+import details from "@/details.js";
 export default {
   name: "NavBar",
   data() {
     return {
       showNav: false,
-      appName: process.env.VUE_APP_TITLE
+      appName: details.appTitle
     };
   },
   computed: {
