@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <router-link class="navbar-item placeholder-logo" to="/" disabled>
         <img src="@/assets/logo.png" alt="Inspopaper">
